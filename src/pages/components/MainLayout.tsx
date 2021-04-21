@@ -57,7 +57,6 @@ const MainLayout = (props: any) => {
   const [barType] = useState([
     { name: '页面', key: 'page' },
     { name: '组件', key: 'component' },
-    { name: '字典', key: 'dictionary' },
   ]);
   const [currentBar, setCurrentBar] = useState<string>('page');
   const [dictionaryList, setDictionaryList] = useState([]);
@@ -223,12 +222,11 @@ const MainLayout = (props: any) => {
         document.body.scrollTop ||
         window.pageYOffset;
       // console.log(boxLeft,boxTop,boxScrollLeft,boxScrollTop,'-----')
-      //坐标需要重新计算
       return {
         id: count,
         type: item.type,
-        left: delta.x - boxLeft - 20 + boxScrollLeft, //20为boxmargin
-        top: delta.y - boxTop + boxScrollTop - 50 - 20 - 10, //50为bar宽度，20为boxmargin，10为主盒子margin
+        left: delta.x - boxLeft + boxScrollLeft,
+        top: delta.y - boxTop + boxScrollTop,
         isSelect: false,
         info: '',
         dictionaryInfo: item.dictionaryText,
@@ -975,8 +973,8 @@ const MainLayout = (props: any) => {
         >
           <div
             style={{
-              width: canvasWidth * 6,
-              height: canvasHeight * 6,
+              width: `${canvasWidth}%`,
+              height: canvasHeight,
               border: `${canvasBorderWidth}px solid #000000`,
               position: 'relative',
             }}

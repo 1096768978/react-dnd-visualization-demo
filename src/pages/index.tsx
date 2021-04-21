@@ -19,8 +19,8 @@ const Detail = (props: any) => {
   const [cardList, setCardList] = useState<any>([]);
   const [count, setCount] = useState(0);
   //画布属性
-  const [canvasWidth, setCanvasWidth] = useState(80);
-  const [canvasHeight, setCanvasHeight] = useState(50);
+  const [canvasWidth, setCanvasWidth] = useState(100);
+  const [canvasHeight, setCanvasHeight] = useState(375);
   const [canvasMargin, setCanvasMargin] = useState<string | number | undefined>(
     0,
   );
