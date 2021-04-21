@@ -3,7 +3,7 @@
 
 效果图：
 
-![react-dnd-visualization 预览](https://uploader.shimo.im/f/bFBM2Lxdbgx1wLVV.gif?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2MTg5OTQ0ODEsImciOiJXUGt0cDl4ZHlrSHd4eHdQIiwiaWF0IjoxNjE4OTkyNjgxLCJ1Ijo0NDE5MjQ1M30.n6Ok5yzKdQU5R4XU50KxXbkcXM6x_wy2XvLIhBwmwmU)
+![react-dnd-visualization 预览](https://github.com/1096768978/react-dnd-visualization-demo/blob/master/react-dnd-visualization%20%E6%95%88%E6%9E%9C%E5%9B%BE.gif?raw=true)
 
 -----
 ## 项目运行
