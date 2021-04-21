@@ -40,7 +40,7 @@ const Detail = (props: any) => {
             title="样品"
             className="site-page-header"
             extra={[
-              <Button key="2">取消</Button>,
+              <Button key="2">打印</Button>,
               <Button key="1" type="primary">
                 保存
               </Button>,

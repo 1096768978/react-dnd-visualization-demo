@@ -228,7 +228,7 @@ const MainLayout = (props: any) => {
         left: delta.x - boxLeft + boxScrollLeft,
         top: delta.y - boxTop + boxScrollTop,
         isSelect: false,
-        info: '',
+        info: 'default',
         dictionaryInfo: item.dictionaryText,
         justify: 'flex-start',
         align: 'flex-start',
