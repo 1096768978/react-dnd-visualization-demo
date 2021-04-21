@@ -3,7 +3,7 @@
 
 效果图：
 
-![react-dnd-visualization 预览](https://github.com/1096768978/react-dnd-visualization-demo/blob/master/react-dnd-visualization%20%E6%95%88%E6%9E%9C%E5%9B%BE.gif.gif)
+![react-dnd-visualization 预览](https://github.com/1096768978/react-dnd-visualization-demo/blob/master/react-dnd-visualization%20%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
 
 -----
 ## 项目运行
